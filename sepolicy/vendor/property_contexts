@@ -16,3 +16,5 @@ persist.vendor.time.                      u:object_r:vendor_time_prop:s0
 
 # Radio
 ro.vendor.oem.                      u:object_r:vendor_deviceid_prop:s0
+odm.ril.radio.status.sim1                 u:object_r:vendor_rild_prop:s0
+odm.ril.radio.status.sim2                 u:object_r:vendor_rild_prop:s0
