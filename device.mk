@@ -241,6 +241,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FrameworkOverlayVEUX \
     NcmTetheringOverlay \
+    LineageSDKOverlayVEUX \
     SettingsOverlayVEUX \
     SystemUIOverlayVEUX \
     WifiOverlayVEUX
