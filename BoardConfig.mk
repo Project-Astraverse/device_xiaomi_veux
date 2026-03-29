@@ -45,6 +45,10 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 TARGET_BOOTLOADER_BOARD_NAME := veux
 TARGET_NO_BOOTLOADER := true
 
+# Bluetooth
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/bt/libbt-vendor
+    
 # Display
 TARGET_SCREEN_DENSITY := 440
 

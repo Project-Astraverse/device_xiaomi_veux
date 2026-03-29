@@ -74,6 +74,11 @@ PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
     android.hardware.boot-service.qti.recovery
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libbt-vendor \
+    libbluetooth_qti_symlink
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
